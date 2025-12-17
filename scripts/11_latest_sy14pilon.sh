@@ -3,7 +3,7 @@
 #SBATCH --output=/scratch/grp/msc_appbio/Group2_ABCC/Gene_Assembling/logs/sy14_pilon_%j.out
 #SBATCH --error=/scratch/grp/msc_appbio/Group2_ABCC/Gene_Assembling/logs/sy14_pilon_%j.err
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=64G
+#SBATCH --mem=120G
 #SBATCH --time=12:00:00
 #SBATCH --partition=cpu
 
