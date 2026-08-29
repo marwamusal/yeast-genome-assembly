@@ -1,0 +1,23 @@
+# Sequencing data and assemblies — never commit
+data/
+*.fastq
+*.fastq.gz
+*.fasta
+*.fa
+*.fna
+*.bam
+*.sam
+*.bai
+assembly/
+
+# QC and logs
+logs/
+qc_reports/
+*.out
+*.err
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
